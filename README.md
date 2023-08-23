@@ -26,3 +26,7 @@ class GradientBoosting():
         for tree in self.trees:
             y_pred += self.learning_rate * tree.predict(X)
         return y_pred
+    def get_params(self):
+        self.params = {'n_estimators' : self.n_estimators, 'learning_rate' : self.learning_rate,
+               'max_depth': self.max_depth}
+        return self.params
