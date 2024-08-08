@@ -1,1 +1,1 @@
-#Gradient Boosting from scratch
+## Gradient Boosting from scratch
